@@ -1,0 +1,23 @@
+@Breadcrumb: Breadcrumb;
+#@{Breadcrumb} {
+    width: 100%;
+    position: absolute;
+    padding: 18px 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color .3s ease-out;
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.9);
+        transition: background-color .3s ease-out;
+    }
+    .item{
+        font-size: 14px;
+        &:hover{
+            color: rgb(108, 142, 255);
+        }
+    }
+    .last-item{
+        cursor: default;
+    }
+
+}
+
